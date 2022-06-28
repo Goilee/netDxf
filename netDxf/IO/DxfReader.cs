@@ -1025,7 +1025,12 @@ namespace netDxf.IO
             this.chunk.Next();
             while (this.chunk.ReadString() != DxfObjectCode.EndSection)
             {
-                this.ReadEntity(false);
+                try
+                {
+                    this.ReadEntity(false);
+                }
+                catch (FormatException)
+                { }
             }
         }
 
