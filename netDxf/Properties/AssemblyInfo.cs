@@ -29,9 +29,9 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("netDxf")]
-[assembly: AssemblyDescription(".net Dxf Reader-Writer")]
+[assembly: AssemblyDescription("Форк netDxf v2.4.2, игнорирующий FormatException при чтении entity")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Nestima")]
 [assembly: AssemblyProduct("netDxf")]
 [assembly: AssemblyCopyright("Daniel Carvajal ©  2021")]
 [assembly: AssemblyTrademark("")]
@@ -58,6 +58,6 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: AssemblyVersion("2.4.2.0")]
-[assembly: AssemblyFileVersion("2.4.2.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
 [assembly: CLSCompliant(true)]
